@@ -5,6 +5,7 @@ import com.xxl.job.core.context.XxlJobContext;
 import com.xxl.job.core.handler.IJobHandler;
 import com.xxl.job.core.handler.annotation.XxlJob;
 import com.xxl.job.core.log.XxlJobLogger;
+import com.xxl.job.core.util.DateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -16,6 +17,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -39,7 +41,7 @@ public class SampleXxlJob {
     @XxlJob("demoJobHandler")
     public ReturnT<String> demoJobHandler(String param) throws Exception {
         XxlJobLogger.log("XXL-JOB, Hello World.");
-        System.out.println("测试哈哈哈哈哈哈........");
+        System.out.println("测试哈哈哈哈哈哈........"+ DateUtil.format(new Date(),"yyyy-MM-dd HH:mm:ss"));
         return ReturnT.SUCCESS;
     }
 
