@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * email util test
  *
- * @author xuxueli 2017-12-22 17:16:23
+ * @author zhenglei 2017-12-22 17:16:23
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)

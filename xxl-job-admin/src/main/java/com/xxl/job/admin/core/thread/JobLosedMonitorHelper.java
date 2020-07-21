@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * job lose-monitor instance
  *
- * @author xuxueli 2015-9-1 18:05:56
+ * @author zhenglei 2015-9-1 18:05:56
  */
 public class JobLosedMonitorHelper {
 	private static Logger logger = LoggerFactory.getLogger(JobLosedMonitorHelper.class);

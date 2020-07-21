@@ -7,7 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 /**
  * job handler
  *
- * @author xuxueli 2015-12-19 19:06:38
+ * @author zhenglei 2015-12-19 19:06:38
  */
 public abstract class IJobHandler {
 

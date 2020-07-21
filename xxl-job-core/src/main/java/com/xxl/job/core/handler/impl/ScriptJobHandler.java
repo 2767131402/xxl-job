@@ -11,7 +11,7 @@ import com.xxl.job.core.util.ScriptUtil;
 import java.io.File;
 
 /**
- * Created by xuxueli on 17/4/27.
+ * Created by zhenglei on 17/4/27.
  */
 public class ScriptJobHandler extends IJobHandler {
 

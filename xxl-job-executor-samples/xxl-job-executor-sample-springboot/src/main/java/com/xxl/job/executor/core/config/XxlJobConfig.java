@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * xxl-job config
  *
- * @author xuxueli 2017-04-28
+ * @author zhenglei 2017-04-28
  */
 @Configuration
 public class XxlJobConfig {

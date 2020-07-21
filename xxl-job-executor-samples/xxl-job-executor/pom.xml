@@ -12,8 +12,7 @@
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
-    <description>Example executor project for spring boot.</description>
-    <url>https://www.xuxueli.com/</url>
+    <description>XXL-JOB_EXECUTOR</description>
 
     <properties>
     </properties>

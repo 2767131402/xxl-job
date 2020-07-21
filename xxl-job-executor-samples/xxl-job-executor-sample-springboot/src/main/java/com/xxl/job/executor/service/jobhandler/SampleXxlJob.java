@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
  * 2、为Job方法添加注解 "@XxlJob(value="自定义jobhandler名称", init = "JobHandler初始化方法", destroy = "JobHandler销毁方法")"，注解value值对应的是调度中心新建任务的JobHandler属性的值。
  * 3、执行日志：需要通过 "XxlJobLogger.log" 打印执行日志；
  *
- * @author xuxueli 2019-12-11 21:52:51
+ * @author zhenglei 2019-12-11 21:52:51
  */
 @Component
 public class SampleXxlJob {
